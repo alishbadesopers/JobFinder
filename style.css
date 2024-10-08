@@ -1,0 +1,776 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+}
+
+#section {
+    background: #FFFFF2;
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+}
+
+label.logo {
+    color: black;
+    font-weight: bold;
+    padding: 0 100px;
+    line-height: 80px;
+    font-size: 18px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #20C6B1;
+    color: white;
+    border: none;
+    margin: 20px 10px;
+    border-radius: 4px;
+    padding: 12px 34px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn1 {
+    background: none;
+    border: 2px solid;
+    border-color: #20C6B1;
+    color: black;
+}
+
+/* for responsive navbar */
+.checkbtn {
+    font-size: 20px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* Hero Section */
+#hero {
+    padding: 20px;
+}
+
+#hero .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+#hero .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0px 10px;
+}
+
+#hero .text-box {
+    margin: 80px 40px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+#hero h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+#hero h2 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+#hero .flex {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hero .btn2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #20C6B1;
+}
+#hero img{
+    width: 100%;
+}
+#hero .grid-container {
+    margin: 20px -1px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px 10px;
+}
+
+#hero .grid-item {
+    background-color: #EBF0F3;
+    padding: 10px 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* offer */
+#offer {
+    background-color: #F2FFFD;
+    padding: 100px 20px 20px 20px;
+}
+#offer .offer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+#offer .offer-item {
+    color: #000000;
+  }
+
+#offer img{
+    width: 100%;
+}
+#offer .offer-bg{
+    margin-top: 100px;
+}
+#offer h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#offer h2 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 40px;
+    padding: 20px 0;
+    max-width: 556px;
+    margin: 0;
+}
+
+#offer p {
+    margin: 0;
+    max-width: 430px;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+/* card */
+#card {
+    margin: 20px 350px;
+    text-align: center;
+}
+
+#card h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 40px 0;
+}
+
+#card .card-box p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+#card .card-box {
+    background-color: #20C6B1;
+    border-radius: 20px;
+    padding: 40px 40px;
+}
+
+#card .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon {
+    padding: 20px 0;
+    text-align: center;
+    align-items: center;
+}
+
+/* category */
+#Category {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#Category h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+
+#Category p {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#Category .card-box a {
+    padding: 10px 0;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+}
+
+#Category .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+#Category .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 20px 20px;
+}
+
+#Category .card-box {
+    background-color: #EBF0F3;
+    border-radius: 20px;
+    padding: 36px 24px;
+}
+
+#Category .icon {
+    padding: 20px 0;
+    text-align: center;
+    align-items: center;
+}
+
+#Category .card-box p {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+/* jobs */
+#jobs{
+    padding: 40px 0;
+}
+#jobs h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+#jobs h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+#jobs .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 2em;
+    margin: auto;
+  }
+  
+#jobs .flex-item {
+    margin: 0.5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 432px;
+    height: auto;
+    padding: 30px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    color: black;
+  }
+#jobs .job-logo{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+#jobs .text-box{
+    text-align: left;
+    display: inline-block;
+    padding: 0 10px;
+    align-items: center;
+}
+#jobs .text-box p{
+    font-size: 14px;
+    padding: 2px 0;
+}
+#jobs .text-box h3{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0;
+}
+#jobs h3{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px 0;
+}
+#jobs .job-card{
+    padding: 10px 0;
+}
+#jobs .job-card a{
+    text-decoration: none;
+    background-color: #EBF0F3;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: black;
+}
+#jobs p{
+    font-size: 14px;
+    padding: 20px 0;
+}
+#jobs .job-btn button{
+    border-radius: 2px;
+    padding: 10px 40px;
+    background-color: #20C6B1;
+    color: white;
+    font-weight: 800;
+    border: 2px solid #20C6B1;
+    font-size: 14px;
+}
+#jobs .job-btn button:nth-child(2){
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    border: 2px solid #20C6B1;
+}
+#jobs .job-button{
+    border-radius: 2px;
+    width: 279px;
+    padding: 20px 0;
+    font-size: 18px;
+    background-color: #20C6B1;
+    color: white;
+    font-weight: 800;
+    border: 2px solid #20C6B1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+/* testimonial */
+#testimonials {
+    background: #FFFFF2;
+}
+.testimonial-container {
+    padding: 5rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: 0.5 ease;
+    gap: 5rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.testimonial-content{
+    max-width: auto;
+}
+#testimonials h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 28px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+
+#testimonials p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+#testimonials h3 {
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+#testimonials h4 {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.testimonial-img img {
+    object-fit: cover;
+}
+
+/* trustee */
+#trustee{
+    padding: 40px 10px;
+}
+#trustee h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#trustee .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+    gap: 80px;
+  }
+  
+#trustee .flex-item {
+    margin: 0.5rem;
+    color: #fff;
+    padding: 0.5em;
+  }
+
+/* contact */
+#contact {
+    width: 70%;
+    max-width: 1128px;
+    height: 343px;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #20C6B1;
+    text-align: center;
+    margin: auto;
+}
+#contact h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+#contact input{
+    padding: 20px 80px;
+    border: none;
+    color: #F2FFFD;
+    text-align: left;
+}
+#contact button{
+    background-color: black;
+    border: none;
+    padding: 20px 20px;
+    color: white;
+}
+
+/* footer */
+#footer {
+    background-color: #EBF0F3;
+    margin-top: 100px;
+    padding: 80px;
+
+}
+#footer .flex-container {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+    border-bottom: 1px solid black;
+  }
+  
+#footer .flex-item {
+    margin: 0.5rem;
+    color: #fff;
+    padding: 0.5em;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+
+#footer p{
+    color: black;
+    font-size: 18px;
+    max-width: 320px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#footer .icons{
+    max-width: 320px;
+    margin: auto;
+}
+#footer h1{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+#footer ul{
+    color: black;
+    line-height: 20px;
+    padding: 20px 0;
+}
+#footer li{
+    padding: 10px 0;
+   font-size: 18px;
+   text-decoration: none;
+   list-style: none;
+}
+#footer h3{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    align-items: start;
+}
+#footer button{
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: none;
+    font-weight: bold;
+}
+#footer .flex {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+/* For laptop Screen */
+@media (max-width: 1131px) {
+
+    /* navbar */
+    label.logo {
+        padding: 0 20px;
+    }
+
+    nav ul li a {
+        margin: 5px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+    }
+
+    #card {
+        margin: 0px 0px;
+    }
+
+    #offer .offer-bg {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+#hero .column{
+    flex: 100%;
+    max-width: 100%;
+}
+    /* category */
+    #Category .column {
+        flex: 50%;
+        max-width: 50%;
+        padding: 20px 20px;
+    }
+    /* footer */
+#footer {
+    padding: 20px;
+}
+#footer p{
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+}
+
+/* For Mobile Screen */
+@media (max-width: 768px) {
+
+    /* navbar */
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: #FFFFF2;
+        top: 80px;
+        left: -100%;
+        padding-left: 20px;
+        text-align: left;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 30px 0;
+        line-height: 30px;
+    }
+
+    .btn {
+        margin: 20px 0px;
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    /* hero */
+
+    #hero .column {
+        flex: 100%;
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    #hero h1 {
+        text-align: center;
+    }
+
+    #hero h2 {
+        text-align: center;
+    }
+
+    #hero p {
+        text-align: center;
+    }
+
+    #hero .btn {
+        margin: 10px 5px;
+        padding: 10px 24px;
+        font-size: 14px;
+        font-weight: 800;
+        display: block;
+        width: 100%;
+    }
+
+    #hero .grid-container {
+        margin: 20px 0px;
+        width: 100%;
+        gap: 5px 5px;
+        grid-template-columns: auto auto;
+    }
+
+
+
+    /* offer */
+    #offer {
+        padding: 20px 20px 20px 20px;
+    }
+
+    #offer .offer-bg{
+        margin-top: 10px;
+    }
+
+    /* card */
+    #card {
+        margin: 0px 0px;
+    }
+
+    #card .card-box {
+        padding: 40px 40px;
+    }
+
+    #card .column {
+        padding: 20px 0px;
+        flex: 100%;
+        max-width: 100%;
+        margin: 1px 30px;
+    }
+
+    #card h1 {
+        font-size: 20px;
+        padding: 40px 20px;
+    }
+
+    /* Catgeory */
+    #Category .column {
+        flex: 100%;
+        max-width: 100%;
+        padding: 20px 20px;
+    }
+    /* contact */
+#contact{
+    width: 100%;
+    max-width: auto;
+    height: auto;
+    padding: 15px;
+}
+#contact h1 {
+    font-size: 18px;
+    padding: 40px 0;
+    max-width: auto;
+    margin: auto;
+}
+#contact input{
+    padding: 20px 40px;
+}
+/* jobs */
+#jobs .job-btn button{
+    margin: 5px 0;
+    width: 100%;
+}
+#jobs .text-box p{
+    font-size: 12px;
+    padding: 0;
+}
+#jobs .text-box h3{
+    font-size: 14px;
+}
+/* footer */
+#footer {
+    padding: 20px;
+}
+#footer p{
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+#footer .flex-container {
+    flex-direction: column;
+  }
+  .testimonial-container {
+
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5 ease;
+    gap: 5rem;
+
+}
+}
